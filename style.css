@@ -1,0 +1,52 @@
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-color: #2f4353;
+        background-image: linear-gradient(to right bottom, #835c69, #6c4d4e, #533f3a, #3b312b, #252320);
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .text-center p {
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    .text-center p {
+        margin: 0px;
+    }
+    
+    .calc {
+        width: auto;
+        height: auto;
+        border: 4px solid black;
+        border-radius: 2px;
+    }
+    
+    #answer {
+        width: 90%;
+        height: 10%;
+        width: 12em;
+        height: 3em;
+        text-align: right;
+    }
+    
+    .container input {
+        height: 1em;
+        width: 1em;
+        margin: 5px 5px;
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 5em;
+        width: 7em;
+        font-weight: 700;
+    }
+    
+    .calc input:hover {
+        background: rgba(226, 44, 44, 0.8);
+        color: rgb(13, 14, 13);
+    }
